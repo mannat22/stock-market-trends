@@ -7,7 +7,9 @@ from statsmodels.tsa.arima.model import ARIMA
 
 st.set_page_config(page_title="Universal Time Series Analyzer", layout="wide")
 
-st.title("📊 Universal Stock / Time Series Analysis App")
+st.title("📊 Stock Market Trend Analysis using Claude")
+st.subheader("An AI-powered forecasting and regression analysis system")
+
 
 uploaded_file = st.file_uploader("Upload Any CSV File", type=["csv"])
 
